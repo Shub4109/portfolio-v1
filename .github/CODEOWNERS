@@ -1,0 +1,19 @@
+# CODEOWNERS
+# Each line is a file pattern followed by the owner(s) of that pattern.
+# The last matching pattern takes precedence.
+# See: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner — all files
+*                           @shubhamnagula
+
+# Documentation
+*.md                        @shubhamnagula
+docs/                       @shubhamnagula
+specs/                      @shubhamnagula
+
+# Application source
+src/                        @shubhamnagula
+
+# Infrastructure / config
+.github/                    @shubhamnagula
+scripts/                    @shubhamnagula
